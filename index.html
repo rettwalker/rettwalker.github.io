@@ -8,7 +8,20 @@ code: NodeJs, EmberJs, AngularJS, Javascript, Java, Spring Boot, Mocha, Jasmine,
 design: HTML5, CSS3, Sass
 expertise: Front-End Web and Mobile development,  Backend Services, Test Driven Development
 ---
-{% include landing.html %}
+
+<section class="landing-section d-flex flex-column justify-content-center align-items-center">
+  <p class="display-4">Rett Walker</p>
+  <h2 class="text-center">Software Developer | Historian</h2>
+  <hr class="">
+  <div>
+    <a class="social-link" href="{{ site.github_link }}"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+    <a class="social-link" href="{{ site.linkedin_link }}"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
+  </div>
+  <div class="mt-5">
+    <a href="#about"><i class="fa fa-chevron-down fa-inverse fa-2x" aria-hidden="true"></i></a>
+  </div>
+</section>
+
 <div class="container">
   {% include about.html %}
 </div>

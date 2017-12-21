@@ -3,7 +3,7 @@
 ---
 
 $white:white;
-$mediumGrey: #706F75;
+$mediumlightGrey: #706F75;
 $medFadeBlue: #2381C1;
 $mediumGrey:#4A4A4A;
 
@@ -16,6 +16,12 @@ body {
   font-family: 'Inconsolata', monospace;
 }
 
+.social-link {
+  color: white;
+  &:hover{
+    color:$mediumlightGrey;
+  }
+}
 .navbar {
   background-image: url('../images/background/stardust.png');
   background-repeat: repeat;
@@ -58,7 +64,7 @@ body {
         font-size: 70px;
       }
       p {
-        color: $mediumGrey;
+        color: $mediumlightGrey;
       }
     }
   }
