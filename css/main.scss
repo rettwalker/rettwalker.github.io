@@ -14,6 +14,11 @@ $mediumGrey:#4A4A4A;
 body {
   background-color: $white;
   font-family: 'Inconsolata', monospace;
+
+  #menu {
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+  }
 }
 
 .social-link {
