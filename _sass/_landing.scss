@@ -1,0 +1,56 @@
+@import "color";
+
+.landing-section {
+  min-height: 100vh;
+  background-image: url('/assets/img/background/stardust.png');
+  background-repeat: repeat;
+  .logo-size {
+    height: 200px;
+  }
+  color:white;
+  h2 {
+    font-size: 1.5rem;
+  }
+  hr {
+    width: 80%;
+    border-top: 7px solid white;
+  }
+}
+
+@media (min-width: 576px) {
+  .landing-section {
+    h2 {
+      font-size: 2.0rem;
+    }
+    hr {
+      width: 90%;
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .landing-section {
+    hr {
+      width: 75%;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .landing-section {
+    hr {
+      width: 55%;
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .landing-section {
+    hr {
+      width: 45%;
+    }
+  }
+}
