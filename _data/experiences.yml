@@ -1,0 +1,74 @@
+- name: "Daugherty Business Solutions"
+  time: "JUNE 2016 - PRESENT"
+  location: "ATLANTA, GA"
+  title: "Senior Consultant, Software Engineer III"
+  work: true
+  bullet:
+    - "Responsible for analyzing and developing application specifications and the technology approach to ensure business requirements are met and are scalable for future product releases." 
+    - "Assist in producing conceptual design documents and detailed specification for large-scale and complex projects to reinforce our technical product and architectural standards."
+    - "Provide application maintenance and support as required."
+    - "Participate in the resolution of more complex production problems according to Service Level Agreements."
+    - "Coach and mentor team members over a range of subjects including Agile development practices and technology languages/frameworks in both a group and one on one setting."
+  projects:
+    description: "Client Work"
+    projectList:
+    - name: "RPM-Backoffice"
+      time: "MAY 2019 - PRESENT"
+      group: "Genuine Parts Company"
+      bullet:
+        - "Mentor team members in Agile development practices such as Test Driven Development and Pair Programming."
+        - "Assist in the implementation of RESTful microservices across multiple domains."
+      techStack: "Spring Boot, Spock, Docker, Kubernetes, Jenkins, Oracle DB"
+    
+    - name: "PULSE"
+      time: "MARCH 2019 - MAY 2019"
+      group: "Genuine Parts Company"
+      bullet:
+        - "Migrated the client’s build process to a Jenkins pipeline. "
+        - "Coached team members in QA automation techniques  and Behavior Driven Developments practices."
+      techStack: "NodeJS, Cucumber, Protractor, Jenkins, Docker"
+    
+    - name: "Order Fulfillment Staging"
+      time: "OCTOBER 2017 - JANUARY 2019"
+      group: "The Home Depot"
+      bullet:
+        - "Assisted in the design and implementation of RESTful microservices."
+        - "Mentored team members in Test Driven Development practices."
+        - "Helped create user stories and technical requirements for the team based off requests from product and  business teams."
+      techStack: "NodeJS, ExpressJS, Prometheus, Pivotal Cloud Foundry, Google Cloud, ReactJS, Redux, Mocha, Chai, Sinon, MariaDB, Cassandra, Concourse CI"
+    
+    - name: "PRIO"
+      time: "JUNE 2017 - OCTOBER 2017"
+      group: "Hyatt"
+      bullet:
+        - "Migrated the team’s source code repositories from Subversion to Bitbucket."
+        - "Automated the team’s build and deployment process using Jenkins, Docker, Artifactory, and Rundeck."
+      techStack: "Javascript, Spring MVC, Docker, Jenkins, Rundeck"
+    
+    - name: "Crownbolt"
+      time: "OCTOBER 2016 - JUNE 2017"
+      group: "The Home Depot"
+      bullet:
+        - "Assisted in the rewrite of  legacy application that was integrated into an existing Angular.js hybrid application."
+        - "Developed new RESTful services to accomplish the existing legacy business processes."
+      techStack: "Angular.js, Spring Boot, JUnit, SQL Server"
+
+- name: "Learning Loop"
+  time: "October 2018 - PRESENT"
+  location: "ATLANTA, GA"
+  work: false
+  bullet:
+    - "Fist to Five voting application that was designed to demonstrate how agile practices can help provide value to customers." 
+    - "Implemented numerous  DevOps and Agile practices such as Test Driven Development, CICD, Feature Toggling and Voice Of the Customer."
+    - "Presented the application at DevNexus 2019, where the team went through 3 development cycles based on feedback from the audience concerning the application."
+  projects:
+  techStack: "ReactJS, Spring Boot, Jest, Spock, GitLab, Docker, Kubernetes, Google Cloud, Bootstrap"
+
+- name: "Ajug Website Redesign"
+  time: "2018"
+  location: "ATLANTA, GA"
+  work: false
+  bullet:
+    - "Volunteered to help rewrite the official Ajug website which included new styles provided by Ajug officers and turning the application into a responsive web application." 
+  projects:
+  techStack: "Jekyll, jQuery, Bootstrap"

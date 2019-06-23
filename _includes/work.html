@@ -1,6 +1,6 @@
-<h2>Software Projects</h2>
+<h2>Work</h2>
 {% for experience in site.data.experiences %}
-{% if experience.work == false %}
+{% if experience.work %}
 {% include experience_card.html content=experience %}
 {% endif %}
 {% endfor %}

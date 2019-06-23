@@ -1,0 +1,12 @@
+<div class="shadow card w-100">
+    <div class="card-header">
+        School
+    </div>
+    <ul class="list-group list-group-flush">
+        {% for school in site.data.educations %}
+        <li class="list-group-item"><b>{{school.name}} / </b>{{school.degree}}<span
+                class="float-right">{{school.date}}</span>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

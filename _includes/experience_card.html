@@ -1,0 +1,51 @@
+<div class="shadow card w-100">
+    <div class="card-header">
+        <b>{{include.content.name}}{% if include.content.title %} / {%endif%}</b>
+        {{include.content.title}}
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+            <div class="">
+                <h5 class="text-muted">{{include.content.time}}</h5>
+                <div class="row">
+                    <div class="col">
+                        <ul class="">
+                            {% for bullet in include.content.bullet %}
+                            <li class=" border-0 p-1">{{ bullet }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                {% if include.content.techStack %}
+                <h6 class="mt-2"><b>TECH STACK: </b>{{include.content.techStack}}</h6>
+                {% endif %}
+                {% if include.content.projects.length != 0 %}
+                <div class="row">
+                    <div class="col">
+                        <h5 class="mt-2 mb-0 text-center"><b>{{ include.content.projects.description }}</b></h5>
+                        <ul class="list-group pt-1">
+                            {% for projects in include.content.projects.projectList %}
+                            <li class="list-group-item border-0">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <h6 class="mb-0"><b>{{ projects.name }}{% if projects.group %} / {% endif %}</b>
+                                            {{projects.group}}</h6>
+                                        <small class="text-muted">{{projects.time}}</small>
+                                        <ul class="">
+                                            {% for projectBullet in projects.bullet %}
+                                            <li class="border-0 p-1">{{ projectBullet }}</li>
+                                            {% endfor %}
+                                        </ul>
+                                        <h6 class="mt-2"><b>TECH STACK: </b>{{projects.techStack}}</h6>
+                                    </div>
+                                </div>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </li>
+    </ul>
+</div>

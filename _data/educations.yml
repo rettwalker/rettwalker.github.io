@@ -1,0 +1,11 @@
+- name: "Georgia State University"
+  degree: "Bachelor of Science, Computer Science"
+  date: "MAY 2016"
+
+- name: "Georgia State University"
+  degree: "Master of Art, History"
+  date: "MAY 2013"
+
+- name: "Georgia College And State University"
+  degree: "Bachelor of Art, History"
+  date: "MAY 2011"
